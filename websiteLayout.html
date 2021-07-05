@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .parent{
+                width: 50%;
+                background-color: white;
+                /* height: 800px; */
+                margin: auto;
+                /* border: 1px solid black; */
+            }
+            .parent>h6{
+                text-align: center;
+                color: red;
+                margin-top: 0%;
+                margin-bottom: 0%;
+            }
+            .parent>h2{
+                text-align: center;
+                margin-top: 0%;
+                font-weight: bold;
+                font-weight: bold;
+            }
+            .row1{
+                width: 98%;
+                /* height: 300pX; */
+                margin: auto;
+                /* border: 1px solid red; */
+            }
+            .row1div{
+                width: 31%;
+                float: left;
+                margin-left: 1%;
+                margin-right: 1%;
+            }
+            .row1div>img{
+                width: 100%;
+                height: 180px;
+
+            }
+            .date{
+                color: gray;
+                margin-bottom: 0%;
+            }
+            .vanue{
+                margin-top: 0%;
+            }
+            #row1icon{
+                width: 120px;
+                height: 40px;
+                background-color: red;
+                clear: both;
+                margin: auto;
+                
+            }
+            #row1icon>p{
+                color: white;
+                text-align: center;
+                padding-top: 10px;
+            }
+            .row2{
+                width: 98%;
+                height: 350pX;
+                margin: auto;
+                /* border: 1px solid red; */
+                margin-top: 40px;
+            }
+            .row2>h6{
+                text-align: center;
+                color: red;
+                margin-top: 0%;
+                margin-bottom: 0%;
+            }
+            .row2>h2{
+                text-align: center;
+                margin-top: 0%;
+                font-weight: bold;
+                margin-bottom: 0%;
+            }
+            #lorem{
+                text-align: center;
+                color: gray;
+                margin-top: 0%;
+            }
+            .row2div{
+                width: 98%;
+                height: 250px;
+                /* border: 5px solid black; */
+                margin: auto;
+                /* display: grid; */
+                /* grid-template-columns:auto auto auto; */
+                /* grid-template-rows: auto auto; */
+                /* display: flex; */
+            }
+            .services{
+                width: 31%;
+                height: 90px;
+                /* border: 1px solid green; */
+                margin: 1%;
+                float: left;
+            }
+            .services>img{
+                width: 20%;
+                margin-right: 5px;
+                float: left;
+            }
+            .services>h4{
+                margin-top: 0%;
+                margin-bottom: 5px;
+            }
+            .services>p{
+                margin-left: 50px;
+                margin-top: 0%;
+                color: gray;
+            }
+            @media (min-width:300px) and (max-width:800px) {
+                .row1div{
+                    clear: both;
+                    width: 80%;
+                    margin: 5%;
+                }
+                .services{
+                    clear: both;
+                    width: 90%;
+                    margin: auto;
+                }
+            }
+            @media (min-width:800px) and (max-width:1250px) {
+                .services{
+                    width: 48%;
+                    margin: 1%;
+                }
+                .three{
+                    clear: left;
+                }
+                .five{
+                    clear: left;
+                }
+                .row1div{
+                    width: 48%;
+                    margin: 1%;
+                }
+                .row1Three{
+                    clear: both;
+                    margin-left: 30%;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="parent">
+            <h6>NEWS & UPDATE</h6>
+            <h2>Our Blog Posts</h2>
+            <div class="row1">
+                <div class="row1div row1One">
+                    <img src="https://www.masaischool.com/static/campus/location_1/91springboard_min_1.jpg" alt="">
+                    <p class="date">29,January 2019</p>
+                    <p class="vanue">Architectual Art Moden</p>
+                </div>
+                <div class="row1div row1Two">
+                    <img src="https://www.masaischool.com/static/campus/location_2/bhive_min_2.jpg" alt="">
+                    <p class="date">29,January 2019</p>
+                    <p class="vanue">Architectual Art Moden</p>
+                </div>
+                <div class="row1div row2Three">
+                    <img src="https://www.masaischool.com/static/campus/location_3/workstudio_min_2.jpg" alt="">
+                    <p class="date">29,January 2019</p>
+                    <p class="vanue">Architectual Art Moden</p>
+                </div>
+                <div id="row1icon"><p>View All Posts</p></div>
+            </div>
+            <div class="row2">
+                <h6>SERVICES</h6>
+                <h2>Our Services</h2>
+                <p id="lorem">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae eveniet veniam fugit <br> rem libero harum?</p>
+                <div class="row2div">
+                    <div class="services one">
+                        <img src="https://img-premium.flaticon.com/png/128/3387/premium/3387989.png?token=exp=1625466666~hmac=b4dde7f86a0bc2043c9b9f35d1a8e43d" alt="">
+                        <h4>Innovation Structure</h4>
+                        <p>Lorem, ipsum dolor sit amet undo explicabo laborum data.</p>
+                    </div>
+                    <div class="services two">
+                        <img src="https://image.flaticon.com/icons/png/128/3800/3800026.png" alt="">
+                        <h4>Arcitectual Design</h4>
+                        <p>Lorem, ipsum dolor sit amet undo explicabo laborum data.</p>
+                    </div>
+                    <div class="services three">
+                        <img src="https://image.flaticon.com/icons/png/128/5008/5008150.png" alt="">
+                        <h4>Interier Design</h4>
+                        <p>Lorem, ipsum dolor sit amet undo explicabo laborum data.</p>
+                    </div>
+                    <div class="services four">
+                        <img src="https://image.flaticon.com/icons/png/128/36/36447.png" alt="">
+                        <h4>Modern Window</h4>
+                        <p>Lorem, ipsum dolor sit amet undo explicabo laborum data.</p>
+                    </div>
+                    <div class="services five">
+                        <img src="https://img-premium.flaticon.com/png/128/3387/premium/3387989.png?token=exp=1625466666~hmac=b4dde7f86a0bc2043c9b9f35d1a8e43d" alt="">
+                        <h4>Expert Architect</h4>
+                        <p>Lorem, ipsum dolor sit amet undo explicabo laborum data.</p>
+                    </div>
+                    <div class="services six">
+                        <img src="https://img-premium.flaticon.com/png/128/1698/premium/1698721.png?token=exp=1625469547~hmac=15367301da9f0e0bed5ca09575dd3a79" alt="">
+                        <h4>Sofa Design</h4>
+                        <p>Lorem, ipsum dolor sit amet undo explicabo laborum data.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
